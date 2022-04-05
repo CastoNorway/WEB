@@ -1,0 +1,38 @@
+
+<html>
+
+    <head>
+        <title>CupCat - SECRET</title>
+        <link href="GamesCSS/Snake.css" type="text/css" rel="stylesheet"/>
+        <script src="JavaScript/Snake.js"></script>
+        
+    </head>
+    <header>
+        <a href="Home.html">
+        <img
+            src="Images/Arrow_east.svg.png"
+            width="150"
+            alt="logo"
+            class="logo"
+        />
+        </a>
+    <body onload="start()">
+        <h1 class="game--title"><br>Snake</h1>
+        <div class="root">
+            <div class="game-board">
+                <canvas id="game" width="550" height="550"></canvas>
+            </div>
+            <!-- left -->
+            
+            <div class="score-panel">
+                <button id="restart" class="hide" onclick="restart()">Start New</button>
+                <font color="yellow">Score:
+                    <span id="score">0</span>
+                </font>
+            </div>
+        </div>
+        <audio id="myAudio">
+        </audio>
+    </body>
+    
+    </html>
