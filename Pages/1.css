@@ -184,6 +184,15 @@ header {
 } 
 
 
+.ImageL1 {
+    padding: 20px;
+    justify-content: center;
+}  
+
+.ImageL2 {
+    padding: 20px;
+    justify-content: center;
+}  
 html, body {
     max-width: 100%;
     overflow-x: hidden;

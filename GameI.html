@@ -15,5 +15,20 @@
                 </div>
             </div>
         </div>
+        <script>
+            $(window).keypress(function(e) {
+    if (e.which === 32) {
+
+        location.href = 'Home.html';
+
+    }
+});
+
+document.body.addEventListener("keydown", function (event) {
+    if (event.key === "Space") {
+        window.location.replace("cupcat.dev");
+    }
+});
+        </script>
     </body>
 </html>
